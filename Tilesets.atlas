@@ -1,1 +1,40 @@
-
+Tilesets.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Templar Knight
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Knight of Santiago
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Hospitaller Knight
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Livonian Knight
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Teutonic Knight
+  rotate: false
+  xy: 937, 1519
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
