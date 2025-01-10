@@ -110,7 +110,7 @@
 		"name": "Theatrical Guild",
 		"culture": 4,
 		"percentStatBonus": {"culture": 15},
-		"requiredBuilding": "Ampitheater",
+		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Acoustics"
