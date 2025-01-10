@@ -1,25 +1,231 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Palace",
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","Provides [2] [Guild Capacity]"]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
+		"name": "Guild Housing",
+		"maintenance": 3,
+		"requiredTech": "Guilds",
+		"uniques": ["Provides [1] [Guild Capacity]","Limited to [5] per Civilization"]
+	},
+		{
+		"name": "Merchant's Guild",
+		"gold": 3,
+		"percentStatBonus": {"gold": 15},
+		"specialistSlots": {"Merchant": 1},
+		"requiredBuilding": "Market",
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Farmer's Guild",
+		"food": 4,
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Biology",
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+1 Food] from [Terrace Farm] tiles [in this city]","[+1 Food] from [Polder] tiles [in this city]"]
+	},
+		{
+		"name": "Mason's Guild",
+		"production": 4,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Guilds",
+		"uniques": ["[+1 Gold] from [Quarry] tiles [in this city]","[+10]% Production when constructing [Production] buildings [in this city]",
+			"[+10]% Production when constructing [Faith] buildings [in this city]"]
+	},
+	{
+		"name": "Theological Guild",
+		"faith": 4,
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Theology",
+		"uniques": ["[+2 Culture] from [Holy Site] tiles [in this city]"]
+	},
+	{
+		"name": "Blacksmith Guild",
+		"production": 3,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Workshop",
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Prestigious University",
+		"science": 4,
+		"percentStatBonus": {"science": 15},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Education",
+		"uniques": ["[+2 Culture] from [Academy] tiles [in this city]"]
+	},
+	{
+		"name": "Swordsmith Guild",
+		"production": 3,
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+25]% Production when constructing [Sword] units [in this city]"]
+	},
+	{
+		"name": "Horse Breeding Guild",
+		"production": 2,
+		"requiredBuilding": "Armory",
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Steel",
+		"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]","[+1 Production] from [Pasture] tiles [in this city]"]
+	},
+	{
+		"name": "Explorer's Guild",
+		"science": 2,
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Astronomy",
+		"uniques": ["All newly-trained [non-[Air]] units [in this city] receive the [Sentry] promotion"]
+	},
+		{
+		"name": "Armourer's Guild",
+		"production": 2,
+		"requiredBuilding": "Barracks",
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Steel",
+		"uniques": ["All newly-trained [Sword] units [in this city] receive the [Armor Plating I] promotion"]
+	},
+	{
+		"name": "Theatrical Guild",
+		"culture": 4,
+		"percentStatBonus": {"culture": 15},
+		"requiredBuilding": "Ampitheater",
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Acoustics"
+	},
+		{
+		"name": "Alchemy Guild",
+		"science": 2,
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Gunpowder",
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]",
+			"[+25]% Production when constructing [Ranged Gunpowder] units [in this city]"]
+	},
+	{
+		"name": "Architecture Guild",
+		"culture": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Artist": 1},
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Architecture",
+		"uniques": ["[+10]% Production when constructing [Culture] buildings [in this city]",
+			"[+10]% Production when constructing [Happiness] buildings [in this city]"]
+	},
+	{
+		"name": "Labor Union",
 		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"production": 2,
+		"maintenance": 5,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Industrialization",
+		"uniques": ["[+5]% Production when constructing [All] buildings [in this city]","[+10]% Production when constructing [Happiness] buildings [in this city]",
+			"[+2 Culture] from [Manufactory] tiles [in this city]"]
+	},
+	{
+		"name": "Tracklayer's Guild",
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 1,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Railroads",
+		"uniques": ["[+1 Culture] from [Railroad] tiles [in this city]"]
+	},
+	{
+		"name": "Military Corporation",
+		"science": 2,
+		"production": 3,
+		"maintenance": 5,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Combined Arms",
+		"uniques": ["[+15]% Production when constructing [Military] units [in this city]",
+			"[+25]% Production when constructing [Armored] units [in this city]"]
+	},
+	{
+		"name": "Aeronautical Guild",
+		"science": 1,
+		"production": 2,
+		"maintenance": 3,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Flight",
+		"uniques": ["[+15]% Production when constructing [Air] units [in this city]",
+			"[+15]% Production when constructing [Helicopter] units [in this city]"]
+	},
+	{
+		"name": "Shipwright's Guild",
+		"production": 3,
+		"maintenance": 2,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Compass",
+		"uniques": ["[+15]% Production when constructing [Water] units [in this city]"]
+	},
+	{
+		"name": "Knight's Templar",
+		"Faith": 6,
+		"maintenance": 3,
+		"isWonder": true,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Theology",
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Order Of Saint James",
+		"Faith": 6,
+		"maintenance": 3,
+		"isWonder": true,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Theology",
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]","[2] free [Inquisitor] units appear"]
+	},
+	{
+		"name": "Order Of Saint John",
+		"Faith": 6,
+		"maintenance": 3,
+		"isWonder": true,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Theology",
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Livonian Order",
+		"Faith": 6,
+		"maintenance": 3,
+		"isWonder": true,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Chivalry",
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Teutonic Order",
+		"Faith": 6,
+		"maintenance": 3,
+		"isWonder": true,
+		"requiredResource": "Guild Capacity",
+		"requiredTech": "Chivalry",
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
 	}
 ]
