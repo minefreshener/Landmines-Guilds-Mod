@@ -190,7 +190,8 @@
 		"isWonder": true,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
-		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
+		"May buy [Templar Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Order Of Saint James",
@@ -199,7 +200,8 @@
 		"isWonder": true,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
-		"uniques": ["New [Knight] units start with [15] Experience [in this city]","[2] free [Inquisitor] units appear"]
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]","[2] free [Inquisitor] units appear",
+		"May buy [Knight of Santiago] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Order Of Saint John",
@@ -208,7 +210,8 @@
 		"isWonder": true,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
-		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
+		"May buy [Hospitaller Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Modern era]>"]
 	},
 	{
 		"name": "Livonian Order",
@@ -217,7 +220,8 @@
 		"isWonder": true,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Chivalry",
-		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
+		"May buy [Livonian Knight] units for [350] [Faith] [in this city] at an increasing price ([15]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Teutonic Order",
@@ -226,6 +230,7 @@
 		"isWonder": true,
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Chivalry",
-		"uniques": ["New [Knight] units start with [15] Experience [in this city]"]
+		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
+		"May buy [Teutonic Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
 	}
 ]
