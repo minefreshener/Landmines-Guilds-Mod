@@ -7,7 +7,7 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-		"Earn [75]% of killed [Military] unit's [Strength] as [Faith]"],
+		"Earn [75]% of killed [Military] unit's [Strength] as [Faith]","Unbuildable","Only available <if [Knight's Templar] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -18,7 +18,7 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-		"Earn [25]% of killed [Military] unit's [Strength] as [Faith]"],
+		"Earn [25]% of killed [Military] unit's [Strength] as [Faith]","Unbuildable","Only available <if [Knight's Templar] is constructed>"],
 		"attackSound": "horse"
 	}
 	{
@@ -29,7 +29,8 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Unbuildable","All adjacent units heal [+10] HP when healing",
+			"Only available <if [Order Of Saint John] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -37,8 +38,9 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 15,
-		"cost": 90,
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [25]% of killed [Military] unit's [Strength] as [Faith]","Never appears as a Barbarian unit"],
+		"cost": 80,
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [25]% of killed [Military] unit's [Strength] as [Faith]","Never appears as a Barbarian unit",
+		"All adjacent units heal [+5] HP when healing","Only available <if [Order Of Saint John] is constructed>"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -49,7 +51,7 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Unbuildable","Only available <if [Order Of Saint James] is constructed>"],
 		"attackSound": "horse"
 	},
 	{
@@ -58,7 +60,8 @@
 		"movement": 2,
 		"strength": 17,
 		"cost": 90,
-		"uniques": ["[+75]% Strength <vs [Mounted] units>","Earn [25]% of killed [Military] unit's [Strength] as [Faith]","Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <vs [Mounted] units>","Earn [25]% of killed [Military] unit's [Strength] as [Faith]","Never appears as a Barbarian unit",
+		"Unbuildable","Only available <if [Order Of Saint James] is constructed>"],
 		"attackSound": "metalhit"
 	},
 		{
@@ -69,7 +72,8 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Unbuildable",
+		"Only available <if [Teutonic Order] is constructed>"],
 		"attackSound": "horse"
 	},
 		{
@@ -80,7 +84,8 @@
 		"cost": 200,
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
-		"[+50]% Strength <vs [Archery] units> <when attacking>","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"[+50]% Strength <vs [Archery] units> <when attacking>","Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Unbuildable",
+		"Only available <if [Livonian Order] is constructed>"],
 		"attackSound": "horse"
 	}
 ]
