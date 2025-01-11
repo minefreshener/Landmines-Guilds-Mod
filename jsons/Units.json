@@ -30,7 +30,6 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
 		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Medic I"],
 		"attackSound": "horse"
 	},
 	{
@@ -40,7 +39,6 @@
 		"strength": 15,
 		"cost": 90,
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","Earn [25]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Medic I"],
 		"attackSound": "metalhit"
 	},
 		{
