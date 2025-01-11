@@ -1,27 +1,20 @@
-Tilesets.png
+Tilesets2.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Units/Templar Knight
-  rotate: false
-  xy: 937, 1519
-  size: 64, 66
-  orig: 64, 66
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Knight of Santiago
-  rotate: false
-  xy: 937, 1519
-  size: 64, 66
-  orig: 64, 66
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Units/Hospitaller Knight
   rotate: false
-  xy: 937, 1519
-  size: 64, 66
-  orig: 64, 66
+  xy: 1822, 1914
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Templar Confrere Knight
+  rotate: false
+  xy: 1318, 1689
+  size: 64, 67
+  orig: 64, 67
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Livonian Knight
@@ -33,8 +26,36 @@ TileSets/HexaRealm/Units/Livonian Knight
   index: -1
 TileSets/HexaRealm/Units/Teutonic Knight
   rotate: false
-  xy: 937, 1519
-  size: 64, 66
-  orig: 64, 66
+  xy: 1009, 1521
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Trecenzago
+  rotate: false
+  xy: 1081, 1360
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Knight of Santiago
+  rotate: false
+  xy: 1297, 1385
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Hospitaller Sergeant
+  rotate: false
+  xy: 789, 1222
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Templar Knight
+  rotate: false
+  xy: 1462, 1702
+  size: 64, 67
+  orig: 64, 67
   offset: 0, 0
   index: -1
