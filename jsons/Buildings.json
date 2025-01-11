@@ -191,7 +191,8 @@
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
 		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
-		"May buy [Templar Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
+		"May buy [Templar Knight] units for [300] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>",
+		"May buy [Templar Confrere Knight] units for [200] [Faith] [in this city] at an increasing price ([20]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Order Of Saint James",
@@ -201,7 +202,8 @@
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
 		"uniques": ["New [Knight] units start with [15] Experience [in this city]","[2] free [Inquisitor] units appear",
-		"May buy [Knight of Santiago] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
+		"May buy [Knight of Santiago] units for [300] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>",
+		"May buy [Trecenzago] units for [180] [Faith] [in this city] at an increasing price ([10]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Order Of Saint John",
@@ -211,7 +213,7 @@
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Theology",
 		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
-		"May buy [Hospitaller Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Modern era]>"]
+		"May buy [Hospitaller Knight] units for [300] [Faith] [in this city] at an increasing price ([30]) <before the [Modern era]>"]
 	},
 	{
 		"name": "Livonian Order",
@@ -221,7 +223,7 @@
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Chivalry",
 		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
-		"May buy [Livonian Knight] units for [350] [Faith] [in this city] at an increasing price ([15]) <before the [Industrial era]>"]
+		"May buy [Livonian Knight] units for [250] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
 	},
 	{
 		"name": "Teutonic Order",
@@ -231,6 +233,6 @@
 		"requiredResource": "Guild Capacity",
 		"requiredTech": "Chivalry",
 		"uniques": ["New [Knight] units start with [15] Experience [in this city]",
-		"May buy [Teutonic Knight] units for [500] [Faith] [in this city] at an increasing price ([30]) <before the [Industrial era]>"]
+		"May buy [Teutonic Knight] units for [350] [Faith] [in this city] at an increasing price ([40]) <before the [Industrial era]>"]
 	}
 ]
